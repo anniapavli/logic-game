@@ -71,7 +71,6 @@ function startGame() {
             let cardImg = cardSet.pop();
             row.push(cardImg); //JS
 
-            // <img id="0-0" class="card" src="water.jpg">
             let card = document.createElement("img");
             card.id = r.toString() + "-" + c.toString();
             card.src = cardImg + ".jpg";
